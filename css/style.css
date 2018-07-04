@@ -21,7 +21,7 @@ p{
 	position: absolute;
 	width: 100vw;
 	height: 280vh;
-	background-image: url("../img/profile-pic.JPG");
+	background-image: url("../img/profile-pic.jpg");
 	background-repeat:no-repeat;
 	background-size: contain;
 	margin-top: -25px;
