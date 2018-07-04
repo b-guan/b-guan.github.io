@@ -1,0 +1,10 @@
+bryan-guan: 3288 x 1113
+
+about: 1812 x 556
+xabout: 1813 x 550
+
+contact: 1713 x 575
+xcontact: 1713 x 575
+
+project: 1858 x 623
+xproject: 1852 x 621
