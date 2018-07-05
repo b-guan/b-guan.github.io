@@ -76,6 +76,15 @@ p{
 }
 
 /*Project Section*/
+#close{
+	z-index: 20;
+	position: sticky;
+	top:0;
+	float: right;
+	color: #fff;
+	display: none;
+}
+
 #project-section{
 	padding-left: 15vw;
 	font-size: 60px;
@@ -178,4 +187,417 @@ p{
 	margin-left: 60px;
 	margin-right: 60px;
 }
+
+
 /*Media Queries*/
+/*Laptop*/
+@media(max-width: 1440px){
+	/*Hero*/
+	.hero{
+		margin-top: 0;
+		background-size:2000px 1401px; 
+		background-position: -320px -300px;
+	}
+	
+	/*About Section*/
+	#about-section > h1{
+	font-size: 59px;
+	}
+	#comment{
+		font-size: 24px;
+	}
+	
+	/*Project Section*/
+	/*Java-GUI*/
+	#diagram{
+		width: 350px;
+		height: 356px;
+	}
+	
+	#input{
+		width: 230px;
+	}
+	
+	#java-project > .row > .col-md-5:nth-child(3){
+		padding-right: 0;
+	}
+	
+	#java-project > .row > .col-md-5 > #diagram{
+		float: right;
+	}
+	
+	/*Alexa*/
+	#skills{
+		width:650px;
+		height:363px;
+	}
+}
+
+/*Laptop*/
+@media(max-width: 1024px){
+	/*Hero*/
+	.hero{
+		margin-top: 0;
+		background-size:1467px 1027px; 
+		background-position: -238px -25px;
+	}
+	
+	/*List*/
+	#bryan-guan{
+		width:323px;
+		height:110px;
+	}
+
+	#about{
+		margin-top: 33vh;
+		width:160px;
+		height:49px;
+	}
+	
+	#project{
+		margin-top: 45vh;
+		width:160px;
+		height:54px;
+	}
+	
+	#among-other-things{
+		margin-top: 55vh;
+		width:400px;
+		height:59px;
+	}
+	
+	#contact{
+		margin-top: 65vh;
+		width:180px;
+		height:58px;
+	}
+	
+	/*About*/
+	#about-section > h1{
+	font-size: 44px;
+	}
+	#comment{
+		font-size: 23px;
+	}
+	
+	/*Project Section*/
+	#close{
+	display: block;
+	}
+	
+	/*Java Project*/
+	#highlight-section{
+	height: 110vh;
+	}
+	
+	#input{
+		position: relative;
+		left: 50px;
+		top: 10px;
+		width:182px;
+		height:382px;
+	}
+	
+	#diagram{
+		position: absolute;
+		bottom: -10px;
+		left: 50%;
+	}
+	
+	#java-project > .row{
+		margin-top:0;
+	}
+	
+	#java-project > .row > .col-lg-5 > p{
+		padding-top: 0;
+		font-size: 17px;
+	}
+	
+	/*Among Other Things*/
+	#other-things-pic{
+		background-size: 1334px 276px;
+		background-position: -100px 0;
+	}
+	
+	#other-things-sec > p{
+		font-size: 25px;
+	}
+	
+	#other-things-sec > h1{
+		font-size: 50px;
+	}
+}
+
+@media(max-width:768px){
+	/*About Section*/
+	#about-section > h1{
+	font-size: 24px;
+	}
+	#comment{
+		font-size: 19px;
+	}
+	
+	/*Among Other Guys*/
+	#other-things-pic{
+		margin-top: 120vh;
+		background-size: 1067px 221px;
+		background-position: -75px 0px;
+	}
+	
+	#other-things-sec{
+		position: relative;
+		top: -70px;
+		margin-bottom: 75px;
+	}
+	
+	#other-things-sec > p{
+		font-size: 23px;
+	}
+	
+	#other-things-sec > h1{
+		font-size: 29px;
+	}
+
+}
+
+@media(max-width: 751px){
+	/*List*/
+	#bryan-guan{
+		margin-top: 20vh;
+		left: 56vw;
+		width:272px;
+		height:93px;
+	}
+
+	#about{
+		left: 65vw;
+		margin-top: 38vh;
+		width:136px;
+		height:42px;
+	}
+	
+	#project{
+		left: 65vw;
+		margin-top: 48vh;
+		width:136px;
+		height:46px;
+	}
+	
+	#among-other-things{
+		margin-top: 58vh;
+		left: 65vw;
+		width:250px;
+		height:46px;
+	}
+	
+	#contact{
+		left: 65vw;
+		margin-top: 68vh;
+		width:136px;
+		height:54px;
+	}
+}
+
+@media(max-width:619px){
+	/*Hero*/
+	.hero{
+		background-position: -400px 0px;
+	}
+	
+	#bryan-guan{
+		margin-top: 20vh;
+		left: 41vw;
+		width:272px;
+		height:93px;
+	}
+
+	#about{
+		left: 50vw;
+		margin-top: 38vh;
+		width:136px;
+		height:42px;
+	}
+	
+	#project{
+		left: 50vw;
+		margin-top: 48vh;
+		width:136px;
+		height:46px;
+	}
+	
+	#among-other-things{
+		margin-top: 58vh;
+		left: 50vw;
+		width:250px;
+		height:46px;
+	}
+	
+	#contact{
+		left: 50vw;
+		margin-top: 68vh;
+		width:136px;
+		height:54px;
+	}
+}
+
+/*Tablet*/
+@media(max-width: 457px){
+	/*Hero*/
+	.hero{
+	background-size:1795px 1258px;
+	background-position: -527px -150px;
+	}
+	
+	/*List*/
+	#bryan-guan{
+		left: 35vw;
+		width:272px;
+		height:93px;
+	}
+
+	#about{
+		left: 52vw;
+		margin-top: 33vh;
+		width:136px;
+		height:42px;
+	}
+	
+	#project{
+		left: 52vw;
+		margin-top: 43vh;
+		width:136px;
+		height:46px;
+	}
+	
+	#among-other-things{
+		margin-top: 53vh;
+		left: 52vw;
+		width:250px;
+		height:46px;
+	}
+	
+	#contact{
+		left: 52vw;
+		margin-top: 63vh;
+		width:136px;
+		height:54px;
+	}
+	
+	/*Project Section*/
+	#highlight-section{
+		height: 250vh;
+	}
+	
+	#skills{
+		width: 425px;
+		height: 191px;
+	}
+	
+	#diagram{
+		margin-top: 20px;
+		bottom: auto;
+		left: 10vw;
+	}
+	
+	#other-things-pic{
+		margin-top: 25vh;
+	}
+	
+	#alexa-project{
+		top: 8vh;
+	}
+	
+	#java-project{
+		top: 55vh;
+	}
+	
+	#python-project{
+		top: 85vh;
+	}
+	
+	#count{
+		width: 425px;
+		height: 170px;
+	}
+	#trials{
+		width:425px;
+		height: 142px;
+	}
+}
+	@media(max-width: 425px){
+		.hero{
+	background-size:1795px 1258px;
+	background-position: -538px -150px;
+	}
+
+	/*List*/
+	#bryan-guan{
+		left: 42vw;
+		width:204px;
+		height:70px;
+	}
+
+	#about{
+		left: 59vw;
+		margin-top: 30vh;
+		width:102px;
+		height:32px;
+	}
+	
+	#project{
+		left: 59vw;
+		margin-top: 40vh;
+		width:102px;
+		height:35px;
+	}
+	
+	#among-other-things{
+		margin-top: 50vh;
+		left: 59vw;
+		width:188px;
+		height:35px;
+	}
+	
+	#contact{
+		left: 59vw;
+		margin-top: 60vh;
+		width:102px;
+		height:41px;
+	}
+	
+	/*About Section*/
+	#about-section > h1{
+	font-size: 21px;
+	}
+	#comment{
+		font-size: 18px;
+	}
+	
+	/*Project Section*/
+	#skills{
+		width: 320px;
+		height: 144px;
+	}
+	
+	#count{
+		width: 320px;
+		height: 128px;
+	}
+	
+	#trials{
+		width: 320px;
+		height: 107px;
+	}
+}
+
+@media(max-width:320px){
+	#diagram{
+		width: 320px;
+		height: 325px;
+		left: auto;
+	}
+	
+	#other-things-sec > p{
+		font-size: 20px;
+	}
+}
