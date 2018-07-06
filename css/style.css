@@ -188,7 +188,6 @@ p{
 	margin-right: 60px;
 }
 
-
 /*Media Queries*/
 /*Laptop*/
 @media(max-width: 1440px){
@@ -212,6 +211,7 @@ p{
 	#diagram{
 		width: 350px;
 		height: 356px;
+		float: right;
 	}
 	
 	#input{
@@ -233,8 +233,7 @@ p{
 	}
 }
 
-/*Laptop*/
-@media(max-width: 1024px){
+@media(max-width: 1025px){
 	/*Hero*/
 	.hero{
 		margin-top: 0;
@@ -271,7 +270,7 @@ p{
 		width:180px;
 		height:58px;
 	}
-	
+
 	/*About*/
 	#about-section > h1{
 	font-size: 44px;
@@ -281,86 +280,72 @@ p{
 	}
 	
 	/*Project Section*/
-	#close{
-	display: block;
+	#highlight-section{
+		height: 100vh;
 	}
 	
-	/*Java Project*/
-	#highlight-section{
-	height: 110vh;
+	.description > .col-md-4{
+		padding-top: 0;
 	}
 	
 	#input{
-		position: relative;
-		left: 50px;
-		top: 10px;
 		width:182px;
 		height:382px;
 	}
-	
 	#diagram{
-		position: absolute;
-		bottom: -10px;
-		left: 50%;
+		width: 315px;
+		height: 320px;
 	}
 	
-	#java-project > .row{
-		margin-top:0;
+	#java-project> div > div > p{
+		font-size:15px;
 	}
 	
-	#java-project > .row > .col-lg-5 > p{
-		padding-top: 0;
-		font-size: 17px;
+	#count{
+		width: 417px;
+		height: 167px;
+	}
+	
+	#trials{
+		width:497px;
+		height:167px;
+	}
+
+	#skills{
+		width: 494px;
+		height: 271px;
 	}
 	
 	/*Among Other Things*/
 	#other-things-pic{
-		background-size: 1334px 276px;
-		background-position: -100px 0;
+		background-size: 1201px 248px;
+		background-position: 0 -20px;
+		height: 205px;
 	}
 	
 	#other-things-sec > p{
-		font-size: 25px;
+		font-size: 22px;
 	}
 	
 	#other-things-sec > h1{
-		font-size: 50px;
+		font-size: 46px;
 	}
 }
 
-@media(max-width:768px){
-	/*About Section*/
-	#about-section > h1{
-	font-size: 24px;
-	}
-	#comment{
-		font-size: 19px;
+@media(max-width: 882px){
+	/*Project Section*/
+	#diagram{
+		width: 242px;
+		height: 246px;
 	}
 	
-	/*Among Other Guys*/
-	#other-things-pic{
-		margin-top: 120vh;
-		background-size: 1067px 221px;
-		background-position: -75px 0px;
+	#input{
+		width: 164px;
+		height: 344px;
 	}
-	
-	#other-things-sec{
-		position: relative;
-		top: -70px;
-		margin-bottom: 75px;
-	}
-	
-	#other-things-sec > p{
-		font-size: 23px;
-	}
-	
-	#other-things-sec > h1{
-		font-size: 29px;
-	}
-
 }
 
-@media(max-width: 751px){
+@media(max-width: 768px){
 	/*List*/
 	#bryan-guan{
 		margin-top: 20vh;
@@ -389,16 +374,57 @@ p{
 		width:250px;
 		height:46px;
 	}
-	
 	#contact{
 		left: 65vw;
 		margin-top: 68vh;
 		width:136px;
 		height:54px;
 	}
+	
+	#about-section > h1{
+	font-size: 24px;
+	}
+	#comment{
+		font-size: 19px;
+	}
+	
+	/*Project Section*/
+	#highlight-section{
+		height: 275vh;
+	}
+	#close{
+	display: block;
+	}
+	#alexa-project{
+		top: 275px;
+	}
+	
+	#java-project{
+		top: 500px;
+	}
+	#diagram{
+		position: absolute;
+		top:0;
+		left:300px;
+		width: 290px;
+		height: 295px;
+
+	}
+	#input{
+		position: absolute;
+		left: 60px;
+		width: 197px;
+		height: 413px;
+	}
+	
+	#python-project{
+		top: 880px;
+	}
+	
 }
 
 @media(max-width:619px){
+	
 	/*Hero*/
 	.hero{
 		background-position: -400px 0px;
@@ -406,7 +432,7 @@ p{
 	
 	#bryan-guan{
 		margin-top: 20vh;
-		left: 41vw;
+		left: 35vw;
 		width:272px;
 		height:93px;
 	}
@@ -424,7 +450,6 @@ p{
 		width:136px;
 		height:46px;
 	}
-	
 	#among-other-things{
 		margin-top: 58vh;
 		left: 50vw;
@@ -438,94 +463,69 @@ p{
 		width:136px;
 		height:54px;
 	}
-}
-
-/*Tablet*/
-@media(max-width: 457px){
-	/*Hero*/
-	.hero{
-	background-size:1795px 1258px;
-	background-position: -527px -150px;
-	}
-	
-	/*List*/
-	#bryan-guan{
-		left: 35vw;
-		width:272px;
-		height:93px;
+	#comment{
+		font-size: 16px;
 	}
 
-	#about{
-		left: 52vw;
-		margin-top: 33vh;
-		width:136px;
-		height:42px;
-	}
-	
-	#project{
-		left: 52vw;
-		margin-top: 43vh;
-		width:136px;
-		height:46px;
-	}
-	
-	#among-other-things{
-		margin-top: 53vh;
-		left: 52vw;
-		width:250px;
-		height:46px;
-	}
-	
-	#contact{
-		left: 52vw;
-		margin-top: 63vh;
-		width:136px;
-		height:54px;
-	}
-	
 	/*Project Section*/
-	#highlight-section{
-		height: 250vh;
+	.project > h1{
+		font-size: 30px;;
+	}
+	.project > h5{
+		font-size: 19px;
+	}
+	.project >div>div> p{
+		font-size:15px;
 	}
 	
 	#skills{
 		width: 425px;
-		height: 191px;
+		height: auto;
 	}
 	
+	#input{
+		width: 130px;
+		height: auto;
+		left: 20px;
+	}
 	#diagram{
-		margin-top: 20px;
-		bottom: auto;
-		left: 10vw;
-	}
-	
-	#other-things-pic{
-		margin-top: 25vh;
-	}
-	
-	#alexa-project{
-		top: 8vh;
-	}
-	
-	#java-project{
-		top: 55vh;
-	}
-	
-	#python-project{
-		top: 85vh;
+		left: 160px;
+		width: 275px;
+		height: auto;
 	}
 	
 	#count{
 		width: 425px;
-		height: 170px;
+		height: auto;
 	}
+	
 	#trials{
-		width:425px;
-		height: 142px;
+		width: 425px;
+		height: auto;
+	}
+	/*Among Other Things*/
+	#other-things-pic{
+		margin-top: 120vh;
+		background-size: 1067px 221px;
+		background-position: -75px 0px;
+	}
+	#other-things-sec{
+		position: relative;
+		top: -30px;
+		margin-bottom: 75px;
+	}
+	
+	#other-things-sec > p{
+		font-size: 23px;
+	}
+	
+	#other-things-sec > h1{
+		font-size: 29px;
 	}
 }
-	@media(max-width: 425px){
-		.hero{
+
+@media(max-width:425px){
+	.hero{
 	background-size:1795px 1258px;
 	background-position: -538px -150px;
 	}
@@ -536,7 +536,7 @@ p{
 		width:204px;
 		height:70px;
 	}
-
+	
 	#about{
 		left: 59vw;
 		margin-top: 30vh;
@@ -564,40 +564,100 @@ p{
 		width:102px;
 		height:41px;
 	}
-	
 	/*About Section*/
 	#about-section > h1{
 	font-size: 21px;
 	}
 	#comment{
-		font-size: 18px;
+		font-size: 16px;
+	}
+	
+	/*Project Section*/
+	#skills{
+		width: 375px;
+		height: auto;
+	}
+	
+	#count{
+		width: 375px;
+		height: auto;
+	}
+	
+	#input{
+		margin-left: 20px;
+		height: auto;
+	}
+	#diagram{
+		margin-left: 20px;
+		top: 280px;
+		left:auto;
+	}
+	
+	#count{
+		width: 375px;
+		height: auto;
+	}
+	
+	#trials{
+		width: 375px;
+		height: auto;
+	}
+	#other-things-pic{
+		margin-top: 10vh;
+	}
+
+	/*Other Things Section*/
+	#other-things-sec > p{
+		font-size: 20px;
+	}
+}
+
+@media(max-width:375px){
+	/*List*/
+	#bryan-guan{
+		left: 35vw;
+	}
+	#about{
+		left: 54vw;
+	}
+
+	#project{
+		left: 54vw;
+
+	}
+		#contact{
+		left: 54vw;
+		margin-top: 55vh;
+	}
+	#among-other-things{
+		left: 54vw;
+		margin-top: 48vh;
 	}
 	
 	/*Project Section*/
 	#skills{
 		width: 320px;
-		height: 144px;
+		height: auto;
 	}
 	
 	#count{
 		width: 320px;
-		height: 128px;
+		height: auto;
+	}
+	
+	#count{
+		width: 320px;
+		height: auto;
 	}
 	
 	#trials{
 		width: 320px;
-		height: 107px;
+		height: auto;
 	}
-}
 
-@media(max-width:320px){
-	#diagram{
-		width: 320px;
-		height: 325px;
-		left: auto;
-	}
-	
+	/*Other Things Section*/
 	#other-things-sec > p{
-		font-size: 20px;
+		font-size: 18px;
 	}
+
 }
