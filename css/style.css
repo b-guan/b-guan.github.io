@@ -77,9 +77,9 @@ p{
 
 /*Project Section*/
 #close{
-	position: absolute;
+	position: sticky;
 	top:0;
-	right:0;
+	float: right;
 	color: #fff;
 	display: none;
 }
@@ -381,18 +381,18 @@ p{
 	}
 	
 	#about-section > h1{
-	font-size: 24px;
+		font-size: 24px;
 	}
 	#comment{
 		font-size: 19px;
 	}
 	
 	/*Project Section*/
+	#close{
+		display: block;
+	}
 	#highlight-section{
 		height: 275vh;
-	}
-	#close{
-	display: block;
 	}
 	#alexa-project{
 		top: 275px;

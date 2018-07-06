@@ -1,3 +1,4 @@
+$(document).ready(function() {
 /*Parallax Effect*/
 $(window).scroll(function() {
 	var scrollTop = $(this).scrollTop();
@@ -88,7 +89,6 @@ $('#close').click(function(){
 	$('#alexa-project').css('display', 'none');
 	$('#java-project').css('display', 'none');
 	$('#python-project').css('display', 'none');
-
 });
 
 //Amazon Alexa
@@ -120,4 +120,5 @@ $('#python').on('mouseenter',function(){
 $('#python').on('mouseleave',function(){
 	$('#python-project').toggle();
 	$('#python-project').css('z-index', 'auto');
+});
 });
