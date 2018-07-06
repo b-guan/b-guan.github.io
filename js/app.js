@@ -85,7 +85,7 @@ $('#helicopter1, #helicopter2').on('mouseleave',function(){
 });
 
 //close button
-$('#close').click(function(){
+$('#close').click(function(e){
 	$('#alexa-project').css('display', 'none');
 	$('#java-project').css('display', 'none');
 	$('#python-project').css('display', 'none');
