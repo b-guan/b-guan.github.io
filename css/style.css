@@ -217,6 +217,9 @@ p{
 	}
 	
 	/*Project Section*/
+	#close{
+		display: block;
+	}
 	/*Java-GUI*/
 	#diagram{
 		width: 350px;
@@ -399,9 +402,6 @@ p{
 	}
 	
 	/*Project Section*/
-	#close{
-		display: block;
-	}
 	#highlight-section{
 		height: 275vh;
 	}
