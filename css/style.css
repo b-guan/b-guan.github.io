@@ -77,9 +77,9 @@ p{
 
 /*Project Section*/
 #close{
-	position: sticky;
+	position: fixed;
 	top:0;
-	float: right;
+	right: 0;
 	color: #fff;
 	display: none;
 }
