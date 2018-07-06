@@ -25,6 +25,7 @@ p{
 	background-repeat:no-repeat;
 	background-size: contain;
 	margin-top: -25px;
+	z-index: 51;
 }
 
 /* List */
@@ -32,30 +33,39 @@ p{
 	position: relative;
 	margin-top: 16vh;
 	left: 54vw;
+	z-index: 51;
+
 }
 
 #about{
 	position: absolute;
 	margin-top: 37vh;
 	left: 58vw;
+	z-index: 51;
+
 }
 
 #project{
 	position: absolute;
 	margin-top: 49vh;
 	left: 58vw;
+	z-index: 51;
+
 }
 
 #among-other-things{
 	position: absolute;
 	margin-top: 59vh;
 	left: 58vw;
+	z-index: 51;
+
 }
 
 #contact{
 	position: absolute;
 	margin-top: 69vh;
 	left: 58vw;
+	z-index: 51;
 }
 
 /*About Section*/
