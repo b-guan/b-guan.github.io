@@ -82,6 +82,15 @@ $('#helicopter1, #helicopter2').on('mouseleave',function(){
 		$('#helicopter').css('opacity', 1);
 		$('#project2').toggle();
 });
+
+//close button
+$('#close').click(function(){
+	$('#alexa-project').css('display', 'none');
+	$('#java-project').css('display', 'none');
+	$('#python-project').css('display', 'none');
+
+});
+
 //Amazon Alexa
 $('#alexa, #bomb2').on('mouseenter',function(){
 	$('#alexa-project').toggle();
