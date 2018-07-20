@@ -412,6 +412,9 @@ p{
 	#java-project{
 		top: 500px;
 	}
+	#web-project{
+		top: 880px;
+	}
 	#diagram{
 		position: absolute;
 		top:0;
