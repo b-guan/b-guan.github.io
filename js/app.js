@@ -96,15 +96,15 @@ $(document).ready(function() {
 		$('#python-project').css('display', 'none');
 	});
 	
+	
 	//Amazon Alexa
-	$('#alexa, #bomb2').on('mouseenter',function(){
+	$('#alexa').on('mouseenter',function(){
 		$('#alexa-project').toggle();
 		$('#alexa-project').css('z-index', 10);
 	});
-	$('#alexa, #bomb2').on('mouseleave',function(){
+	$('#alexa').on('mouseleave',function(){
 			$('#alexa-project').toggle();
 			$('#alexa-project').css('z-index', 'auto');
-	
 	});
 	
 	//Java GUI project
@@ -126,4 +126,15 @@ $(document).ready(function() {
 		$('#python-project').toggle();
 		$('#python-project').css('z-index', 'auto');
 	});
+	
+	//Website
+	$('#webpage').on('mouseenter',function(){
+		$('#web-project').toggle();
+		$('#web-project').css('z-index', 10);
+	});
+	$('#webpage').on('mouseleave',function(){
+			$('#web-project').toggle();
+			$('#web-project').css('z-index', 'auto');
+	});
+
 });
