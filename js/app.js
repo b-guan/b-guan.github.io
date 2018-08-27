@@ -68,25 +68,14 @@ $(document).ready(function() {
 		$(this).css('z-index', 'auto');
 	});
 	
-	//Crow
-	$('#crow').on('mouseenter',function(){
-		$('#crow').css('opacity', 0);
-		$('#project1').toggle();
-		$('#helicopter').css('z-index', -1);
+	//Rush
+	$('#rush').on('mouseenter',function(){
+		$('#rush-project').toggle();
+		$('#rush-project').css('z-index', 10);
 	});
-	$('#crow').on('mouseleave',function(){
-		$('#crow').css('opacity', 1);
-		$('#project1').toggle();
-		$('#helicopter').css('z-index', 'auto');
-	});
-	//Helicopter
-	$('#helicopter1, #helicopter2').on('mouseenter',function(){
-		$('#helicopter').css('opacity', 0);
-		$('#project2').toggle();
-	});
-	$('#helicopter1, #helicopter2').on('mouseleave',function(){
-			$('#helicopter').css('opacity', 1);
-			$('#project2').toggle();
+	$('#rush').on('mouseleave',function(){
+			$('#rush-project').toggle();
+			$('#rush-project').css('z-index', 'auto');
 	});
 	
 	//close button
