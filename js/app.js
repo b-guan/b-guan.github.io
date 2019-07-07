@@ -70,12 +70,12 @@ $(document).ready(function() {
 	
 	//Rush
 	$('#rush').on('mouseenter',function(){
-		$('#rush-project').toggle();
-		$('#rush-project').css('z-index', 10);
+		$('#expl-blackjack').toggle();
+		$('#expl-blackjack').css('z-index', 10);
 	});
 	$('#rush').on('mouseleave',function(){
-			$('#rush-project').toggle();
-			$('#rush-project').css('z-index', 'auto');
+			$('#expl-blackjack').toggle();
+			$('#expl-blackjack').css('z-index', 'auto');
 	});
 	
 	//close button
