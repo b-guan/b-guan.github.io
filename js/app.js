@@ -68,12 +68,12 @@ $(document).ready(function() {
 		$(this).css('z-index', 'auto');
 	});
 	
-	//Rush
-	$('#rush').on('mouseenter',function(){
+	//Exploding Blackjack
+	$('#spade-cat').on('mouseenter',function(){
 		$('#expl-blackjack').toggle();
 		$('#expl-blackjack').css('z-index', 10);
 	});
-	$('#rush').on('mouseleave',function(){
+	$('#spade-cat').on('mouseleave',function(){
 			$('#expl-blackjack').toggle();
 			$('#expl-blackjack').css('z-index', 'auto');
 	});
@@ -85,6 +85,15 @@ $(document).ready(function() {
 		$('#python-project').css('display', 'none');
 	});
 	
+	//Atom Project
+	$('#atom-block').on('mouseenter',function(){
+		$('#atom-project').toggle();
+		$('#atom-project').css('z-index', 10);
+	});
+	$('#atom-block').on('mouseleave',function(){
+			$('#atom-project').toggle();
+			$('#atom-project').css('z-index', 'auto');
+	});
 	
 	//Amazon Alexa
 	$('#alexa').on('mouseenter',function(){

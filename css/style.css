@@ -156,7 +156,7 @@ p{
 	transition: all 300ms;
 }
 
-#java-project, #python-project, #alexa-project, #web-project, #expl-blackjack{
+#java-project, #python-project, #alexa-project, #web-project, #expl-blackjack, #atom-project{
 	position: absolute;
 	display: none;
 	display:none;
