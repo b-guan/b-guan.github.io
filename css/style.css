@@ -123,7 +123,7 @@ p {
   max-width: 100%;
   position: relative;
   transition: background-color 300ms;
-  height: 90vh;
+  height: 120vh;
 }
 
 .iconWrapper {
@@ -260,11 +260,10 @@ p {
   }
 
   /* Genetic Algorithm */
-  .genetic-algo-gif{
+  .genetic-algo-gif {
     max-width: 50vw;
     height: auto;
   }
-
 }
 
 @media (max-width: 1025px) {
@@ -422,6 +421,12 @@ p {
     font-size: 19px;
   }
 
+  /*Icons*/
+  .icon-img {
+    width: 85px;
+    height: auto;
+  }
+
   /*Project Section*/
   #highlight-section {
     height: 275vh;
@@ -437,7 +442,7 @@ p {
     top: 880px;
   }
 
-  .genetic-algo-gif{
+  .genetic-algo-gif {
     max-width: 100vw;
     height: auto;
   }
@@ -641,12 +646,6 @@ p {
   }
   #other-things-pic {
     margin-top: 10vh;
-  }
-
-  /*Icons*/
-  .icon-img {
-	width: 85px;
-	height: auto;
   }
 
   /*Other Things Section*/
