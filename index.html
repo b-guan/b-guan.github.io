@@ -75,8 +75,9 @@
     <!-- Projects Section -->
     <h1 id="project-section">Projects</h1>
     <div id="highlight-section" class="container">
+      <div class="close-wrapper" style="position: absolute; height: 100%; right: 0;">
       <img id="close" src="img/close.png" />
-
+    </div>
       <!-- Descriptions -->
 
       <!-- Exploding Blackjack -->
@@ -115,7 +116,7 @@
           </div>
           <div class="col-md-7">
             <img
-              id="skills"
+              class="genetic-algo-gif"
               src="img/special.gif"
               width="514px"
               height="500px"
@@ -144,10 +145,83 @@
           </div>
           <div class="col-md-8">
             <img
-              id="skills"
+              class="skills-sizing"
               src="img/blockly.png"
               width="666px"
               height="333px"
+            />
+          </div>
+        </div>
+      </span>
+
+      <!-- Genetic Algorithm -->
+      <span id="gen-project" class="project">
+        <h1>Delightful Fireflies</h1>
+        <h5>[Java]</h5>
+        <div class="row description">
+          <div class="col-md-6">
+            <p>
+              Was developed with four other peers as a final project for an AI
+              practicum. The GUI on the right shows the genetic algorithm in
+              progress. The goal of the algorithm is to be able to learn how to
+              trace a given symbol such the batman logo. The algorithm generates
+              many "fireflies" that are given random/semi-random directions.
+              Users can toggle between showing every firefly or just the most
+              accurate firefly. <br /><br />
+              The logo is a graph of time and each x,y coordinate of the logo
+              corresponds to a specific point in time. The lifetime cycle of
+              each generation is gradually increased to improve accuracy while
+              tracing the graph. The GUI shows the algorithm at a point in time
+              where the lifecycle time is about three quarters of the logo.
+              Fitness is a cumulative score based off of how far the firefly is
+              from the x,y coordinate corresponding to the current time. The
+              next generation of fireflies are created by randomly mixing the
+              directions of the most fit fireflies. There is also a mutation
+              rate that will randomly change some of the fireflies' directions
+              to reduce the chance of settling at a local maximum.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img
+              class="genetic-algo-gif"
+              src="img/genetic algorithm.gif"
+              width="340px"
+              height="252px"
+            />
+          </div>
+        </div>
+      </span>
+
+      <!-- Simon Project -->
+      <span id="simon-project" class="project">
+        <h1>Active Simon</h1>
+        <h5>[C]</h5>
+        <div class="row description">
+          <div class="col-md-4">
+            <p>
+              Active Simon is a game in which the user has to memorize a random
+              sequence of moves and replay them. Moves are represented by
+              different colored lights. The player has 3 lives and each level
+              has a time limit and an increase in difficulty (more moves to
+              remember) The game uses the FRDM-K64F board(shown in picture) and
+              its built in accelerometer.<br /><br />
+              Moves include:<br />
+              •tilting the board forwards, backwards, left or right<br />
+              •shaking the board<br />
+              •front two buttons on the board<br /><br />
+              Demo:
+              <a id="#simon-demo-link" href="https://youtu.be/smpL9WqD4Q0" target="_blank">
+                https://youtu.be/smpL9WqD4Q0
+              </a>
+              (or click on icon for laptops)
+            </p>
+          </div>
+          <div class="col-md-8">
+            <img
+              class="skills-sizing"
+              src="img/FRDM board.png"
+              width="584px"
+              height="372px"
             />
           </div>
         </div>
@@ -171,7 +245,7 @@
           </div>
           <div class="col-md-8">
             <img
-              id="skills"
+              class="skills-sizing"
               src="img/alexa-apps.png"
               width="912px"
               height="509px"
@@ -275,9 +349,10 @@
       <!-- Icons -->
       <div class="container">
         <div class="row">
-          <div class="col-md-4 center icon_padding">
+          <div class="col-md-3 icon">
             <div id="spade-cat" class="iconWrapper">
               <img
+                class="icon-img"
                 src="img/exploding-blackjack.png"
                 width="150px"
                 height="150px"
@@ -285,35 +360,88 @@
             </div>
             <h3>Exploding BlackJack</h3>
           </div>
-          <div class="col-md-4 center icon_padding">
+          <div class="col-md-3 icon">
             <div id="atom-block" class="iconWrapper">
-              <img src="img/atom block.png" width="150px" height="150px" />
+              <img
+                class="icon-img"
+                src="img/atom block.png"
+                width="150px"
+                height="150px"
+              />
             </div>
             <h3>Blockly Atom Plugin</h3>
           </div>
-          <div class="col-md-4 center icon_padding">
-            <div id="alexa" class="iconWrapper">
-              <img src="img/alexa.png" width="150px" height="150px" />
+          <div class="col-md-3 icon">
+            <div id="gen-algorithm" class="iconWrapper">
+              <img
+                class="icon-img"
+                src="img/atom block.png"
+                width="150px"
+                height="150px"
+              />
             </div>
-            <h3>Amazon Alexa</h3>
+            <h3>Genetic Algorithm</h3>
+          </div>
+          <div class="col-md-3 icon">
+            <div id="simon-wrapper" class="iconWrapper">
+              <a
+                id="simon-demo"
+                href="https://youtu.be/smpL9WqD4Q0"
+                target="_blank"
+              >
+                <img
+                  class="icon-img"
+                  src="img/atom block.png"
+                  width="150px"
+                  height="150px"
+                />
+              </a>
+            </div>
+            <h3>Active Simon</h3>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-3 icon">
+            <div id="alexa" class="iconWrapper">
+              <img
+                class="icon-img"
+                src="img/alexa.png"
+                width="150px"
+                height="150px"
+              />
+            </div>
+            <h3>Amazon Alexa</h3>
+          </div>
+          <div class="col-md-3 icon">
             <div id="triangles" class="iconWrapper">
-              <img src="img/triangle.png" width="164px" height="150px" />
+              <img
+                class="icon-img"
+                src="img/triangle.png"
+                width="164px"
+                height="150px"
+              />
             </div>
             <h3>Java-GUI</h3>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3 icon">
             <div id="python" class="iconWrapper">
-              <img src="img/triangle.png" width="164px" height="150px" />
+              <img
+                class="icon-img"
+                src="img/triangle.png"
+                width="164px"
+                height="150px"
+              />
             </div>
             <h3>Python</h3>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3 icon">
             <div id="webpage" class="iconWrapper">
-              <img src="img/webpage.png" width="117px" height="150px" />
+              <img
+                class="icon-img"
+                src="img/webpage.png"
+                width="117px"
+                height="150px"
+              />
             </div>
             <h3>Website</h3>
           </div>
