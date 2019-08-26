@@ -160,7 +160,6 @@ p {
 #simon-project {
   position: absolute;
   display: none;
-  display: none;
   color: #fff;
   transition: all 300ms;
 }
